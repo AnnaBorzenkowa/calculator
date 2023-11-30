@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+    .btn {
+        width: 60px;
+        height: 60px;
+        background: rgb(98, 215, 233);
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        user-select: none;
+    }
+ 
+    .btn:hover {
+        background: rgb(241, 161, 91);
+        color: #fff;
+    }
+ 
+    #calc-wrap {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        background: #e09595;
+    }
+ 
+    #calc {
+        width: 240px;
+        display: inline-block;
+    }
+ 
+    #inputVal {
+        width: 100%;
+        border: 0;
+        font-size: 16px;
+        resize: vertical;
+    }
